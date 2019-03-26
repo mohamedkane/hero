@@ -1,0 +1,91 @@
+body{
+    font-family: 'Kumar One Outline', cursive;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Bungee Inline', cursive;
+
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+    color: firebrick;
+    font-family: 'Black Ops One', cursive;
+}
+
+p{
+    color:blue;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 30px;
+}
+#header {
+    color: lime;
+    background: linear-gradient(to bottom, #ff5050 0%, #0066ff 100%);  
+}
+
+a:visited {
+    text-decoration: none;
+     color:lime;
+
+ }
+
+
+
+a:active {
+    text-decoration: underline;
+    color:orange;
+}
+
+a:hover {
+    color:cyan;
+} 
+
+
+#illuminati h2 {text-shadow: 2px 2.5px #FFFFFF;}
+
+#m h2 {text-shadow: 2px 2.5px #ff0000;}
+
+#header, #illuminati, #m {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#illuminati button:hover {
+    background: Navy 	;
+    color: cyan;
+}
+
+
+#illuminati {
+    background:		#FF8C00;
+}
+#m {
+     background: linear-gradient(to bottom, white 0%, cyan 100%);  
+     color:gold;
+}
+
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#illuminati button {
+    width: 300px;   
+    height: 50px;
+    font-size: 20px;
+    background: SteelBlue 	;
+    color:firebrick;
+    border-radius: 100px;
+    border:  double white 10px;
+    margin: 10px;
+}
